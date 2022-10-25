@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import How from '../components/how'
 import Costumers from '../components/costumers'
 import SuccessCases from '../components/SuccessCases'
+import Demo from '../components/Demo'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
        <How/>
        <Costumers/>
        <SuccessCases/>
+       <Demo/>
       </main>
 
       <footer className={styles.footer}>
