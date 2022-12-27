@@ -6,6 +6,7 @@ export default function Demo() {
 
     const handleOption = (option) => {
         if (option == 'Otro') { setControls(!controls) }
+        if (controls && option != 'Otro'){setControls(!controls)}
         setOption(option)
     }
 

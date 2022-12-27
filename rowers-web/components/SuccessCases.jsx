@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 export default function SuccessCases() {
 
-    return <div>
-        <h2>Casos de Exito</h2>
+    return <div className="flex flex-col items-center text-center px-10 xl:px-44">
+        <h2 className="font-Lato font-bold text-rw-main text-4xl mt-28 mb-11">Casos de Exito</h2>
         <Image
             alt='success cases'
-            src='/successCases.png'
-            width={560}
-            height={216}
+            src='/Success.png'
+            width={1080}
+            height={402}
             layout='responsive'
             placeholder='empty'
         />
